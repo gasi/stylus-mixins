@@ -1,3 +1,6 @@
+# THIS LIBRARY IS DEPRECATED AND NOT MAINTAINED ANYMORE. USE [NIB][] INSTEAD.
+
+<strike>
 # stylus-mixins: A Collection of Useful Mixins for Stylus
 
 ## Installation
@@ -25,7 +28,7 @@
 2. Use `stylus-mixins` in your `.styl` files:
 
     ```
-    @import mixins
+    @import 'mixins'
     div
         border-radius(3px)
     ```
@@ -37,7 +40,8 @@ This library is licensed under the [Apache License, Version 2.0][license].
 
 ## Acknowledgements
 
-Thanks for the great foundation, [@brunch](https://github.com/brunch) and [@hanssonlarsson](https://github.com/hanssonlarsson).
+Thanks for the great foundation, [@brunch](https://github.com/brunch) and
+[@hanssonlarsson](https://github.com/hanssonlarsson).
 
 
 ## Reporting Issues
@@ -48,3 +52,6 @@ If you encounter any bugs or other issues, please file them in the
 
 [issue-tracker]: https://github.com/gasi/stylus-mixins/issues
 [license]: http://www.apache.org/licenses/LICENSE-2.0.html
+</strike>
+
+[nib]: https://github.com/visionmedia/nib
